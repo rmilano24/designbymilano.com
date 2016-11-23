@@ -1,0 +1,40 @@
+/*
+Theme Name: Scratch
+Description: Used to style the TinyMCE editor.
+*/
+
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Body
+ * 2.0 - Headings
+ * 3.0 - Text Elements
+ * 4.0 - Links
+ * 5.0 - Alignment
+ * 6.0 - Tables
+ * 7.0 - Images
+ * 8.0 - Galleries
+ * 9.0 - Audio/Video
+ * 10.0 - RTL
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1.0 Body
+ * ----------------------------------------------------------------------------
+ */
+
+html .mceContentBody {
+	font-size: 100%;
+	max-width: 800px;
+}
+
+body {
+	color: #2b2b2b;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	vertical-align: baseline;
+}

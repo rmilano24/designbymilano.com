@@ -1,0 +1,27 @@
+/*
+Theme Name: Scratch
+Description: Used to style the TinyMCE editor.
+*/
+.media-frame-content #fw-backend-option-fw-edit-options-modal-data_provider-population_method,
+#footer-left em,
+.toplevel_page_fw-extensions .error,
+.toggle-not-compat-ext-btn-wrapper{display: none;}
+.menu-item .menu-item-settings {overflow: hidden;}
+
+.fw-option-typography-option-style {display: none !important;}
+
+.slider-page-template #publish {
+    display: inline-block
+}
+#setting-error-tgmpa {display: block;}
+.image-block-preview {margin-top:5px;}
+.image-block-preview img{width: auto !important; max-width: 100%; height: auto!important;}
+
+.disable-stunning-tab [aria-controls="fw-options-tab-sidenav-links"],
+.disable-stunning-tab [aria-controls="fw-options-tab-stunning-header"]{
+    display: none;
+}
+.slider-page-template [aria-controls="fw-options-tab-design"],
+.slider-page-template [aria-controls="fw-options-tab-stunning-header"]{
+    display: none;
+}
